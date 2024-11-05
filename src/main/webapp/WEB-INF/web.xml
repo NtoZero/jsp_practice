@@ -11,4 +11,12 @@
         <servlet-name>first</servlet-name>
         <url-pattern>/hello</url-pattern>
     </servlet-mapping>-->
+    <servlet>
+        <servlet-name>addInfo</servlet-name>
+        <servlet-class>learn.jsp_practice.init.jsp_servlet.AdditionalInfoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addInfo</servlet-name>
+        <url-pattern>/addInfo/*</url-pattern>
+    </servlet-mapping>
 </web-app>
